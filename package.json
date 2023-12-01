@@ -1,7 +1,7 @@
 {
   "name": "espcaped-csv",
   "description": "Tiny CSV generator for browser and node that escapes values to avoid CSV injection attacks.",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Henrik Joreteg <henrik@joreteg.com> (joreteg.com)",
   "bugs": {
     "url": "https://github.com/HenrikJoreteg/escaped-csv/issues"
