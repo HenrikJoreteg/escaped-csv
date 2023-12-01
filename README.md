@@ -48,6 +48,7 @@ npm test
 
 ## Change log
 
+- `1.0.1`: Fix typo'ed package name in package.json
 - `1.0.0`: First published release
 
 ## license
