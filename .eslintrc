@@ -1,0 +1,16 @@
+{
+  "ignorePatterns": ["dist"],
+  "env": { "node": true, "es6": true },
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "script",
+    "allowImportExportEverywhere": true
+  },
+  "rules": {
+    "no-console": [2, { "allow": ["warn", "error", "info"] }],
+    "no-prototype-builtins": [0],
+    "no-only-tests/no-only-tests": "error"
+  },
+  "plugins": ["no-only-tests"]
+}
