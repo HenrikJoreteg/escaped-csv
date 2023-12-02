@@ -8,12 +8,14 @@ const {
 
 test('toCSVString', t => {
   t.equal(escapeStringCell('+++=-+c2+c8'), 'c2+c8')
+  t.equal(escapeStringCell('5m'), '5m')
   t.equal(toCSVString([['a', 'b', 'c']]), '"a","b","c"')
 
   const fieldContentScenarios = [
     ['a', '"a"'],
     ['=c2+c8', '"c2+c8"'],
     ['  should trim  ', '"should trim"'],
+    ['   47 mg', '"47 mg"'],
   ]
 
   for (const [input, output] of fieldContentScenarios) {

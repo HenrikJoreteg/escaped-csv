@@ -19,7 +19,7 @@
  * @param {string} str
  * @returns {string}
  */
-const escapeStringCell = str => str.replace(/^[=+-@]+/, '').trim()
+const escapeStringCell = str => str.replace(/^[=+\-@]+/, '').trim()
 
 /**
  *
